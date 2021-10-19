@@ -50,7 +50,7 @@ LOC=vendor/mediate/hardware/interfaces/cyhhidl/1.0/default
 ```
 这样就在**default**目录生成了**CyhHidl.cpp**和**CyhHidl.h**文件，接着执行以下命令：
 ```
-./out/host/linux-x86/bin/hidl-gen-o $LOC -Landroidbp-impl -rvendor.mediatek.hardware:vendor/mediatek/hardware/interfaces -randroid.hidl:system/libhidl/transport $PACKAG
+./out/host/linux-x86/bin/hidl-gen -o $LOC -Landroidbp-impl -rvendor.mediatek.hardware:vendor/mediatek/hardware/interfaces -randroid.hidl:system/libhidl/transport $PACKAGE
 ```
 这样就在**default**目录下生成了**Android.bp**文件。
 *命令行中的-o 需要视情况使用，将会覆盖生成代码，以免造成已修改的服务端代码被覆盖掉。*
