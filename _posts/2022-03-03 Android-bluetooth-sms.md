@@ -3,7 +3,7 @@ layout: post
 title:  "Android蓝牙短信功能开发"
 author: "陈宇瀚"
 date:   2022-03-03 12:05:40 +0800
-header-img: "img/img-head/img-head-boot-process.jpg"
+header-img: "img/img-head/img-head-automotive.jpg"
 categories: article
 tags:
   - Android
@@ -113,10 +113,7 @@ public class LocalBluetoothProfileManager {
     ....        
 }
 ```
-之后进行连接就可以在车机的蓝牙设备详情页面看到对应的协议开关选项，以U918A为例，存在如下选项：
-
-!](https://upload-images.jianshu.io/upload_images/4273129-aa631c686297780b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+之后进行连接就可以在车机的蓝牙设备详情页面看到对应的协议开关选项，如一个Text Messages选项
 勾选之后就会进行蓝牙短信协议的连接。
 
 #### MapClient连接设备状态监听
