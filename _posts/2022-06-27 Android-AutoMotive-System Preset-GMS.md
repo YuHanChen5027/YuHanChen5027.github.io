@@ -271,7 +271,7 @@ public class ApplicationPackageManager extends PackageManager {
 ```
 逻辑很简单，就是根据对应的报名移除对应的**feature**。之后再次编译操作，就可以成功在我们的设备上运行手机版的**GooglePlay**了，运行效果如下:
 
-![automotve_googleplay.png](/img/in_post/automotve_googleplay.png)
+![googleplay.png](/img/in_post/googleplay.png)
 
 ## GMS一次性认证方案
 前面有提到，我们的设备烧录之后都需要根据**Google**官方流程对设备进行验证，如果是大量出货的设备，若没有与**Google**合作，那么每一台都需要走一遍验证流程，非常耗时和繁琐，所以我们需要通过一些方式跳过这个认证的过程，保证我们的设备在烧录之后不需要进行认证也可以使用谷歌服务，下面介绍一下具体的实现方式。
