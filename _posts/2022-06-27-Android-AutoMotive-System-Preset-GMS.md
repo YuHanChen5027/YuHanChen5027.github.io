@@ -206,7 +206,7 @@ public final /* synthetic */ class aepj implements aetv {
     }
 }
 ```
-可以看到代码内通过**PackageManager**的**hasSystemFeature**方法去判断设备的类型，并返回对应的类型字符串，在谷歌i有我们在源码中找到对应的方法和文件(**framework/base/core/java/android/app/ApplicationPackageManager.java**)，结合内部的方法来看，除了**hasSystemFeature**，还有一个获得系统所有支持的**Feature**的方法：**getSystemAvailableFeatures**，我们同样在反编译后的代码中搜索。
+可以看到代码内通过**PackageManager**的**hasSystemFeature**方法去判断设备的类型，并返回对应的类型字符串，在源码中找到对应的方法和文件(**framework/base/core/java/android/app/ApplicationPackageManager.java**)，结合内部的方法来看，除了**hasSystemFeature**，还有一个获得系统所有支持的**Feature**的方法：**getSystemAvailableFeatures**，我们同样在反编译后的代码中搜索。
 
 ![jadx_2.png](/img/in_post/jadx_2.png)
 
@@ -269,7 +269,7 @@ public class ApplicationPackageManager extends PackageManager {
     }
 }
 ```
-逻辑很简单，就是根据对应的报名移除对应的**feature**。之后再次编译操作，就可以成功在我们的设备上运行手机版的**GooglePlay**了，运行效果如下:
+逻辑很简单，就是根据对应的包名移除对应的**feature**。之后再次编译操作，就可以成功在我们的设备上运行手机版的**GooglePlay**了，运行效果如下:
 
 ![googleplay.png](/img/in_post/googleplay.png)
 
