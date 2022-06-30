@@ -14,7 +14,7 @@ tags:
 
 **GMS**提供有**GooglePlay**、**Search**、**Google语音**、**Gmail**、**Contact Sync**、**Calendar Sync**、**Talk**、**Google Maps**、**Street View**、**YouTube**、**Android Market**等服务，**GMS**为安卓上的谷歌公司系列应用提供支持
 ## GMS资源获取
-由于**Google**官方未开放相关的服务，应用的资源下载，这时我们可以选择再[Open GApps](https://opengapps.org/)网站上进行下载, **Open GApps**项目是一个开源项目，内部会不定时更新**Google**相关的APP，包含适配各种架构，安卓版本的**Google**相关的服务，应用的资源文件。
+由于**Google**官方未开放相关的服务，应用的资源下载，所以我们要选择其他方式获取，其中最为常用的是从[Open GApps](https://opengapps.org/)（https://opengapps.org/)网站上下载，**Open GApps**项目是一个开源项目，由非官方人员负责维护，主要给**自定义ROM**免费配备**GMS**，每晚（欧洲时间）更新一次Google相关的APP，包含适配各种架构，安卓版本的Google相关的服务，应用的资源文件。
 
 ### 版本的选择
 当我们进入[Open GApps](https://opengapps.org/)后可看到如下的选项界面，比较清晰，根据需求进行选择下载：
